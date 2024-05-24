@@ -1,0 +1,47 @@
+/* Main Colors */
+:root {
+    --grey-text: rgba(63, 60, 63, 0.667);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headings */
+.test .para-one {
+    font-size: 23px;
+    letter-spacing: -1px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.test .head-one {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Parent Review */
+.test .parent-review {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+
+/* Parent Review */
+
+/* Child Review */
+.test .parent-review .child-review {
+    margin: 20px auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.test .parent-review .child-review .description {
+    color: rgba(65, 64, 64, 0.897);
+}
+
+/* Child Review */

@@ -1,0 +1,74 @@
+/* container */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Margins */
+.mb-3 {
+    margin-bottom: 10px !important;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    padding-bottom: 0;
+}
+
+/* Padding */
+.pt-0 {
+    padding: 0;
+}
+
+/* Colors */
+.text-grey-500 {
+    color: var(--grey-text);
+}
+
+.text-grey-200 {
+    color: #ccc;
+}
+
+/* Font Size */
+.fs-2 {
+    font-size: 25px;
+}
+
+/* Text Transform */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Font Weight */
+.fw-bold {
+    font-weight: bold;
+}
+
+/* Flex */
+.d-flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* Img */
+.img-fluid {
+    width: 80px;
+    height: 100%;
+}
